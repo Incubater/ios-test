@@ -1,0 +1,85 @@
+PODS:
+  - Alamofire (3.4.1)
+  - AsyncSwift (1.7.3)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (2.3.0):
+    - CocoaLumberjack/Extensions
+  - CryptoSwift (0.5.1)
+  - Device (1.0.1)
+  - EVReflection (2.40.0)
+  - FDFullscreenPopGesture (1.1)
+  - IQKeyboardManagerSwift (4.0.4)
+  - JLToast (1.4.2)
+  - MBProgressHUD (1.0.0)
+  - PathKit (0.6.0)
+  - ReachabilitySwift (2.3.3)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SnapKit (0.21.1)
+  - SwiftDate (3.0.8)
+  - SwiftEventBus (1.1.0)
+  - SwiftyJSON (2.3.2)
+  - UITextView+Placeholder (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - AsyncSwift
+  - CocoaLumberjack/Swift
+  - CryptoSwift
+  - Device (~> 1.0.1)
+  - EVReflection (~> 2.6)
+  - FDFullscreenPopGesture (= 1.1)
+  - IQKeyboardManagerSwift
+  - JLToast (~> 1.4)
+  - MBProgressHUD (~> 1.0.0)
+  - PathKit
+  - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
+  - SDWebImage (~> 3.8)
+  - SnapKit
+  - SwiftDate
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`)
+  - SwiftyJSON
+  - UITextView+Placeholder (~> 1.2)
+
+EXTERNAL SOURCES:
+  ReachabilitySwift:
+    :git: https://github.com/ashleymills/Reachability.swift
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+
+CHECKOUT OPTIONS:
+  ReachabilitySwift:
+    :commit: cbbfc0907e8a67107289be9d1180538c3fbccd93
+    :git: https://github.com/ashleymills/Reachability.swift
+  SwiftEventBus:
+    :commit: 4b8cbb5a8227b3c29af75e0416689d26178733d8
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AsyncSwift: f3ad5dd077bbd1477e7573e87071a532fedaca1a
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  CryptoSwift: df42dda18baf6c76347a94e227dbcc0a341304bd
+  Device: 7ed5b87db148886e8c3cbcdde5dc997baddbe10b
+  EVReflection: 0e8ec81c1f92646aac670b64b3199c02c5c0ae2d
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IQKeyboardManagerSwift: e0964d04d6a29b71016fd346dca13ecb80a2823a
+  JLToast: bf63282a7df069557e80c77dbd2c6b9f9fc4de72
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PathKit: b224b6d2c4e75b87f08f45e1c0c610a3195c94e5
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+  SwiftDate: 971f8b9394f664f2226b9c3ab64e801a7291c612
+  SwiftEventBus: d334f7aecbddbd995c3de5c262cf35c72db550f3
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+
+PODFILE CHECKSUM: 9d694e46fd9350de3dc3421e6d53e59aeda0a94f
+
+COCOAPODS: 1.0.1

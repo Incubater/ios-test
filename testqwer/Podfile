@@ -1,0 +1,36 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+def pods
+pod 'CryptoSwift'
+pod 'PathKit'
+pod 'CocoaLumberjack/Swift'
+pod 'SwiftDate'
+pod 'Alamofire', '~> 3.4'
+pod 'AsyncSwift'
+pod 'SwiftyJSON'
+pod 'JLToast', '~> 1.4'
+pod 'ReachabilitySwift', :git => 'https://github.com/ashleymills/Reachability.swift'
+pod 'IQKeyboardManagerSwift'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'SwiftEventBus', :git => 'https://github.com/cesarferreira/SwiftEventBus.git'
+pod 'SnapKit'
+pod 'Device', '~> 1.0.1'
+pod 'EVReflection', '~> 2.6'
+pod 'SDWebImage', '~>3.8'
+pod 'UITextView+Placeholder', '~> 1.2'
+pod 'FDFullscreenPopGesture', '1.1'
+end
+
+target 'testqwer' do
+pods
+end
+
+post_install do |installer|
+installer.pods_project.targets.each do |target|
+target.build_configurations.each do |config|
+config.build_settings['CONFIGURATION_BUILD_DIR'] = '$PODS_CONFIGURATION_BUILD_DIR'
+end
+end
+end

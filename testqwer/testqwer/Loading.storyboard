@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iLU-Z4-mHs">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Inc Loading Controller-->
+        <scene sceneID="zpm-eM-xPs">
+            <objects>
+                <viewController id="iLU-Z4-mHs" customClass="IncLoadingController" customModule="testqwer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uA9-ju-GLR"/>
+                        <viewControllerLayoutGuide type="bottom" id="ERk-g4-Jtj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j1q-ND-sSJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inc_Loading_all_0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UCq-92-Lt2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UCq-92-Lt2" firstAttribute="top" secondItem="j1q-ND-sSJ" secondAttribute="top" id="9jQ-4J-s5s"/>
+                            <constraint firstItem="UCq-92-Lt2" firstAttribute="bottom" secondItem="ERk-g4-Jtj" secondAttribute="top" id="GJo-9S-ArX"/>
+                            <constraint firstItem="UCq-92-Lt2" firstAttribute="leading" secondItem="j1q-ND-sSJ" secondAttribute="leading" id="REw-F6-3Zv"/>
+                            <constraint firstAttribute="trailing" secondItem="UCq-92-Lt2" secondAttribute="trailing" id="kcW-0J-iTW"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c0A-fw-9do" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618" y="115"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Inc_Loading_all_0.jpg" width="750" height="1335"/>
+    </resources>
+</document>
